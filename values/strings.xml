@@ -71,11 +71,11 @@
     <string name="achievement_complete">Achievement unlocked</string>
     <string name="category_add_success">Added successfully</string>
     <string name="category_rename_success">Renamed successfully</string>
-    <string name="category_rename_fail">Rename failed</string>
+    <string name="category_rename_fail">Rename error</string>
     <string name="category_edittext_empty">A name is required</string>
     <string name="network_invalid_token">Invalid token. Please try to login again.</string>
     <string name="network_add_team_success">Added team successfully</string>
-    <string name="network_add_team_fail">Add team failed:&#160;</string>
+    <string name="network_add_team_fail">Add team error:&#160;</string>
     <string name="team_add_repeat_day">Daily</string>
     <string name="team_add_repeat_two_day">Every 2 days</string>
     <string name="team_add_repeat_week">Weekly</string>
@@ -108,7 +108,7 @@
     <string name="add_to_do_repeat_times">Unlimited</string>
     <string name="add_to_do_attr_desc_title">Attributes</string>
     <string name="network_edit_team_success">Team modified successfully</string>
-    <string name="network_edit_team_fail">Team edit failed:&#160;</string>
+    <string name="network_edit_team_fail">Team edit error:&#160;</string>
     <string name="edit_team_not_exist">Team does not exist</string>
     <string name="edit_to_do_remind_reset_success">Alarm reset successfully！</string>
     <string name="exp_empty_text">No exp data here</string>
@@ -133,7 +133,7 @@
     <string name="main_tips_3">Tips: Step data is calculated from sensor data, it may be inaccurate if you the launch app less frequently.
     <string name="profile_update_success">Updated successfully</string>
     <string name="profile_head_update_success">Avatar updated successfully</string>
-    <string name="profile_head_update_fail">Avatar updated failed: network error, please try again</string>
+    <string name="profile_head_update_fail">Avatar update failed: network error, please try again</string>
     <string name="profile_username_empty">A username is required</string>
     <string name="setting_reopen_guide">Successfully reopened user guide </string>
     <string name="profile_sv_nickname">Nickname:&#160;</string>
@@ -201,7 +201,7 @@
     <string name="team_sign_end">Ended</string>
     <string name="point">P</string>
     <string name="team_menu_end">End</string>
-    <string name="permission_photo_preview_need">The photo needs permission to be previewed.</string>
+    <string name="permission_photo_preview_need">We need permission to view the photo!</string>
     <string name="team_dialog_report_title">Report</string>
     <string name="team_member_follow_together">Followed</string>
     <string name="team_member_followed">Followed</string>
@@ -219,30 +219,30 @@
     <string name="to_do_detail_target_times">Target times:&#160;</string>
     <string name="to_do_detail_reward">Reward:&#160;</string>
     <string name="difficult_degree">Degree of Difficulty</string>
-    <string name="urgency_degree">Degree of Importance</string>
+    <string name="urgency_degree">Degree of Importance</string> <!-- Degree of Importance = "Priority" -->
     <string name="ebbinghaus_the_last_day">Ebbinghaus-The last day</string>
     <string name="ebbinghaus">Ebbinghaus</string>
     <string name="day">Day</string>
     <string name="to_do_detail_delete_title">Delete</string>
     <string name="to_do_detail_delete_message">Are you sure you want to delete this task?</string>
-    <string name="to_do_detail_delete_multiply_message">Are you sure you want to delete these task?</string>
+    <string name="to_do_detail_delete_multiply_message">Are you sure you want to delete these tasks?</string>
     <string name="activity_delete_message">Are you sure you want to delete this activity?</string>
     <string name="sub_task_delete_message">Are you sure you want to delete "%1$s"?</string>
     <string name="to_do_detail_delete_success">Deleted successfully</string>
-    <string name="to_do_detail_delete_failed">Delete failed</string>
-    <string name="to_do_detail_delete_history">Are you sure you want to delete this history?</string>
-    <string name="history_delete_history">Are you sure you want to delete the history of「%1$s」?</string>
-    <string name="to_do_detail_delete_history_success">Deleted successfully</string>
-    <string name="to_do_detail_delete_history_failed">Deleting failed</string>
+    <string name="to_do_detail_delete_failed">Error!</string> <!-- "Delete failed" sounded robotic, so the line, and similar ones throughout have been replaced accordingly. Honestly if you prefer "Delete failed" feel free to change it! -->
+    <string name="to_do_detail_delete_history">Are you sure you want to erase this from the history?</string> <!-- Could not find prompt in-app -->
+    <string name="history_delete_history">Are you sure you want to erase「%1$s」from the history?</string> <!-- Looked in app for this text prompt. Since its removing items from the overall history, this phrasing is better. -->
+    <string name="to_do_detail_delete_history_success">Erased successfully</string>
+    <string name="to_do_detail_delete_history_failed">Error!</string>
     <string name="to_do_item_detail_give_up_team_task">A team task can't be given up!</string>
     <string name="to_do_item_detail_give_up_title">Give Up</string>
     <string name="to_do_item_detail_give_up_message">Are you sure you want to give up this task?\nYou will lose some exp."</string>
     <string name="to_do_item_detail_edit_team_task">Team tasks are uneditable!</string>
     <string name="to_do_detail_set_to_finish">Set to「Completed」</string>
     <string name="to_do_detail_set_to_finish_message">Did you actually complete this task?</string>
-    <string name="give_up_success">Task was given up successfully. You lost total %1$d exp.</string>
-    <string name="give_up_success_with_coin">Task was given up successfully. You a lost total of %1$d exp and %2$d coins.</string>
-    <string name="give_up_failed">Give up task failed</string>
+    <string name="give_up_success">Task was given up. You lost total %1$d exp.</string>
+    <string name="give_up_success_with_coin">Task was given up. You a lost total of %1$d exp and %2$d coins.</string>
+    <string name="give_up_failed">Error!</string>
     <string name="user_follow_list">Following</string>
     <string name="user_follower_list">Follower</string>
     <string name="user_follow">Follow</string>
@@ -251,11 +251,11 @@
     <string name="network_unknown_error">Error:</string>
     <string name="network_no_network">No network to load data.</string>
     <string name="network_yb_failed">Login error, try again later.</string>
-    <string name="network_yb_redirect_success">Authorize successfully</string>
+    <string name="network_yb_redirect_success">Authorization successful</string>
     <string name="task_restart">Restart</string>
-    <string name="team_activity_finish">completed this task</string>
-    <string name="team_activity_finish_and_submit">completed this task and submit: </string>
-    <string name="welcome">welcome</string>
+    <string name="team_activity_finish">Completed this task</string>
+    <string name="team_activity_finish_and_submit">Completed this task and submitted: </string>
+    <string name="welcome">Welcome</string>
     <string name="activity_join_team_text">Welcome %1$s joined the team 「%2$s」</string>
     <string name="join_team">joined the team</string>
     <string name="date">yyyy-MM-dd</string>
@@ -282,7 +282,7 @@
     <string name="male">Male</string>
     <string name="secret">Secret</string>
     <string name="widget_refresh_success">Refreshed successfully</string>
-    <string name="widget_refresh_failed">Refresh failed</string>
+    <string name="widget_refresh_failed">Error!</string>
     <string name="widget_today_progress">Today\'s tasks</string>
     <string name="fragment_me_toolbar_title">Me</string>
     <string name="login">Login</string>
@@ -294,25 +294,25 @@
     <string name="status_finish_fore">You've already completed %1$d tasks!\nKeep it up!</string>
     <string name="step"> step(s)</string>
     <string name="pedometer_not_available">Pedometer is not available: </string>
-    <string name="gain_str_exp">You gained 「strength」exp!</string>
-    <string name="gain_charm_exp">You gained 「charm」exp!</string>
-    <string name="gain_end_exp">You gained 「endurance」exp!</string>
+    <string name="gain_str_exp">You gained「strength」exp!</string>
+    <string name="gain_charm_exp">You gained「charm」exp!</string>
+    <string name="gain_end_exp">You gained「endurance」exp!</string>
     <string name="status_input_steps">Input steps</string>
     <string name="status_input_steps_success">Input successfully.</string>
-    <string name="status_input_steps_failed">Input failed.</string>
+    <string name="status_input_steps_failed">Error!</string>
     <string name="to_do_team_task_finish_success">Completed successfully</string>
     <string name="to_do_all_time">All-Time</string>
     <string name="to_do_next_7_days">Next 7 Days</string>
     <string name="sort_asc">Ascending sort</string>
     <string name="sort_desc">Descending sort</string>
     <string name="to_do_taptarget_new">Add new task</string>
-    <string name="to_do_taptarget_content">Click here to add new tasks！</string>
+    <string name="to_do_taptarget_content">Tap here to add a new task！</string>
     <string name="to_do_taptarget_nav">Navigation</string>
     <string name="to_do_taptarget_nav_content">"Board: Places that you complete tasks just like in RPGs\n"
                                     "Status: View your attributes exp and levels\n\n"
                                     "Community: Join a team and complete team tasks\n\n"
                                     "Statistics: View your data statistics\n\n\n"
-                                    "Most function support using with network except community~\n"
+                                    "Most function support using with network except community~\n" <!-- Not a clue what's trying to be said. Do you mean only community requires a network connection? -->
                                     "And most data is stored in local storage space, so be careful when uninstalling without a backup."</string>
     <string name="to_do_slide_bar">Slide Bar</string>
     <string name="to_do_slide_bar_content">Here are entries to login, achievement, task history, settings and so on</string>
@@ -322,7 +322,7 @@
     <string name="to_do_more_content">Time\nSelect the time scope to show\nBy default it\'s showing all-time task, you can change to only today to show.\n\n\nSort\nWhat\'s more, you can change the sort method.</string>
     <string name="to_do_item_overdue">Some Task(s) are overdue! View details on the [History] page.</string>
     <string name="team_task_uneditable">Team tasks are uneditable！</string>
-    <string name="to_do_passed_finishable_time">The task is uncompletable now</string>
+    <string name="to_do_passed_finishable_time">The task can't be completed now</string>
     <string name="to_do_got_exp">You gained exp</string>
     <string name="to_do_finish_target_times">You completed tasks at the target times!</string>
     <string name="u_finished">You finished</string>
@@ -335,15 +335,15 @@
     <string name="activity">Activity</string>
     <string name="submit_activity">Submit</string>
     <string name="no_submit">Skip</string>
-    <string name="today_finished">Today you have already completed %1$d of %2$d tasks</string>
+    <string name="today_finished">Today you have already completed %1$d out of %2$d tasks</string>
     <string name="month_and_day">MM-dd</string>
     <string name="permission_camera_need">Selected photo needs permission:\n1.Camera</string>
     <string name="add_photo">New photo</string>
     <string name="category_all">All</string>
-    <string name="list_undeleteable">The list cannot be deleted, because there are incomplete task(s)</string>
-    <string name="shop_list_undeleteable">The list cannot be deleted, because there are still item(s)</string>
+    <string name="list_undeleteable">The list cannot be deleted because there are incomplete task(s)</string>
+    <string name="shop_list_undeleteable">The list cannot be deleted because there are still item(s)</string>
     <string name="network_login_invaild">Login invalid, please re-login!</string>
-    <string name="network_server_dead">The server may have crashed, try again later</string>
+    <string name="network_server_dead">The server may have crashed, please try again later</string>
     <string name="team_get_next_task_success">Gained task successfully</string>
     <string name="team_get_next_task_already">Gained task already</string>
     <string name="lifeup">LifeUp</string>
@@ -359,26 +359,26 @@
     <string name="out_of_date">Task is overdue</string>
     <string name="guest">Guest</string>
     <string name="starter_task_content">Using LifeUp</string>
-    <string name="starter_task_remark">Tap the left circle or swipe right to complete tasks.\nPress and hold the card to show options.</string>
+    <string name="starter_task_remark">Tap the left circle or swipe right to complete tasks.\nPress and hold the card to see additional options.</string>
     <string name="backup_restore_success">Restore successful</string>
-    <string name="backup_restore_failed">Restore failed</string>
+    <string name="backup_restore_failed">Error!</string>
     <string name="backup_success">Backup successful:&#160;</string>
     <string name="backup_success_custom">Backup successful:&#160;</string>
-    <string name="backup_failed">Backup failed:&#160;</string>
-    <string name="backup_failed_custom">Backup failed</string>
+    <string name="backup_failed">Backup error:&#160;</string>
+    <string name="backup_failed_custom">Error!</string>
     <string name="loading">Loading…</string>
     <string name="sign_in_with_qq">Sign in with QQ</string>
     <string name="profile_nickname">Nickname</string>
     <string name="profile_address">Address</string>
     <string name="profile_gender">Gender</string>
     <string name="profile_avatar">Avatar</string>
-    <string name="yb_network_problem">Loading failed.Check your network and try again.</string>
+    <string name="yb_network_problem">Error! Check your network and try again.</string>
     <string name="backup_not_found_file">Detected no backup file in default path!</string>
     <string name="xml_team_basic_header">Basic</string>
     <string name="xml_team_to_do">Task(title)</string>
     <string name="xml_team_remark">Description</string>
     <string name="xml_team_bouns_header">Reward</string>
-    <string name="xml_team_urgency">Degree of Importance</string>
+    <string name="xml_team_urgency">Degree of Importance</string> <!-- Degree of Importance = "Priority Level" -->
     <string name="xml_team_difficulty">Degree of Difficulty</string>
     <string name="xml_team_attrs">Related attributes(1–3)</string>
     <string name="xml_team_extra_header">Extra</string>
@@ -392,12 +392,12 @@
     <string name="xml_add_to_content">Task</string>
     <string name="xml_add_to_do_remark">Remark</string>
     <string name="xml_add_to_do_bouns_header">Reward</string>
-    <string name="xml_add_to_do_urgency">Degree of Importance</string>
+    <string name="xml_add_to_do_urgency">Degree of Importance</string> <!-- Degree of Importance = "Priority Level" -->
     <string name="xml_add_to_do_difficulty">Degree of Difficulty</string>
     <string name="xml_add_to_do_attrs">Related attributes (1–3)</string>
     <string name="xml_add_to_do_extra_header">Extra</string>
     <string name="xml_add_to_do_remind_date">Remind Time</string>
-    <string name="xml_add_to_do_start_time">Start Time</string>
+    <string name="xml_add_to_do_start_time">Start Time</string> <!-- Day 3 Edit End -->
     <string name="xml_add_to_do_deadline">Deadline</string>
     <string name="xml_add_to_do_set_time">Time</string>
     <string name="xml_add_to_do_repeat">Repeat Frequency</string>
